@@ -19,7 +19,13 @@ Eine einfache E-Commerce-Website als persönliches Webentwicklungsprojekt.
 
 ## 📸 Screenshots
 
+### Homepage
+
 ![Homepage](homepage.png)
+
+### Best Seller
+
+![Best Seller](best-seller.png)
 ## 🚀 Live Demo
 
 👉 [Website öffnen](https://ariansalimii.github.io/wcommerce-website/)
