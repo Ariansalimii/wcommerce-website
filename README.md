@@ -14,6 +14,10 @@ Eine einfache E-Commerce-Website als persönliches Webentwicklungsprojekt.
 Mit diesem Projekt habe ich meine Kenntnisse in der Webentwicklung praktisch angewendet
 und erste Erfahrungen bei der Entwicklung einer eigenen E-Commerce-Website gesammelt.
 
+## Demo
+
+🔗 [Live Demo](https://ariansalimii.github.io/wcommerce-website/)
+
 ## Ziel
 
 Das Projekt dient dazu, meine Kenntnisse in der Frontend-Webentwicklung und meine
