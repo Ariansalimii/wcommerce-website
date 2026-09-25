@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../font/webfonts/Vazirmatn-Medium.woff2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+@media (max-width: 790px) {
+    .signup {
+        font-size: 0.7em;
+        width: 45%;
+    }
+
+    h2 {
+        left: 6%;
+        width: 200px;
+    }
+
+    .signUp {
+        right: 50%;
+    }
+
+    img {
+        width: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .gmail,
+    #password,
+    .name,
+    .lastName {
+        right: 1%;
+        width: 10%;
+        line-height: normal;
+    }
+
+}
+
+@media (max-width:1400px) {
+
+    .gmail,
+    #password,
+    .name,
+    .lastName {
+        width: 90%;
+    }
+
+    .name {
+        width: 90%;
+    }
+
+    .lastName {
+        width: 90%;
+    }
+
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#c0c0c0f6, #858585);
+    animation: color 14s ease-in-out infinite;
+    background-size: 300% 300%;
+    overflow-x: hidden;
+}
+.logo{
+    width: 160px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+.header {
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 0.9rem 5%;
+    height: 10%;
+    width: 95%;
+    position: absolute;
+    z-index: 100;
+}
+
+.header {
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header li a {
+    text-decoration: none;
+    position: relative;
+    left: 480px;
+    margin-right: 20px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #8a8a8a;
+    border-radius: 20px;
+    transform: translateX(0);
+    box-shadow: 0 0 5px black;
+}
+
+.header li a:hover {
+    background-color: rgb(176, 174, 174);
+    box-shadow: 0 0 35px black;
+}
+
+.header li:hover {
+    transform: translateY(-2px);
+}
+
+.signup {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    left: 35%;
+    width: 30%;
+    top: 20%;
+    box-shadow: 0 0 20px rgb(39, 39, 39);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.name {
+    position: absolute;
+    top: 20%;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(30, 30, 30);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelline1 {
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 22%;
+}
+
+.name:focus,
+.name:valid {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(58, 58, 58, 0.461);
+}
+
+.name:focus+.labelline1,
+.name:valid+.labelline1 {
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px, -22px) scale(0.88);
+    z-index: 111111;
+}
+
+.lastName {
+    position: absolute;
+    top: 35%;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(30, 30, 30);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelline2 {
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 37%;
+}
+
+.lastName:focus,
+.lastName:valid {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(58, 58, 58, 0.461);
+}
+
+.lastName:focus+.labelline2,
+.lastName:valid+.labelline2 {
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px, -22px) scale(0.88);
+    z-index: 111111;
+}
+
+.gmail {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(30, 30, 30);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelline3 {
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 52%;
+}
+
+.gmail:focus,
+.gmail:valid {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(58, 58, 58, 0.461);
+}
+
+.gmail:focus+.labelline3,
+.gmail:valid+.labelline3 {
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px, -22px) scale(0.88);
+    z-index: 111111;
+}
+
+#password {
+    position: absolute;
+    top: 65%;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(53, 53, 53);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelline4 {
+    position: absolute;
+    color: rgb(39, 39, 39);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 67%;
+
+}
+
+.entryarea img {
+    position: absolute;
+    width: 30px;
+    top: 67%;
+    right: 7%;
+    cursor: pointer;
+    z-index: 1111;
+    opacity: 0.8;
+}
+
+#password:focus,
+#password:valid {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(58, 58, 58, 0.461);
+}
+
+#password:focus+.labelline4,
+#password:valid+.labelline4 {
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px, -22px) scale(0.88);
+    z-index: 111111;
+}
+
+h2 {
+    position: absolute;
+    right: 31%;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    cursor: default;
+}
+
+.ul1 .li1 {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    top: 300px;
+    z-index: 100000;
+}
+
+.ul1 .li1 .signUp {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 8px;
+    color: black;
+    background: #8a8a8a;
+    border-radius: 20px;
+    transform: translateY(0);
+    box-shadow: 0 0 5px black;
+}
+
+.ul1 .li1 .signUp:hover {
+    background-color: rgb(81, 80, 80);
+    letter-spacing: 2px;
+    box-shadow: 0 0 25px black;
+    transition: 0.2s;
+}
+
+.ul1 .li1:hover {
+    transform: translateY(-3px);
+}

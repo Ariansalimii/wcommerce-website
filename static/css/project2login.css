@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../font/webfonts/Vazirmatn-Medium.woff2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+@media (max-width: 790px){
+    .login{
+        font-size: 0.7em;
+        width: 100%;
+    }
+    h2{
+        left: 18%;
+        width: 200px;
+        
+    }
+    .signup{
+        right: 50%;
+    }
+    
+}
+@media (max-width: 960px){
+    .gmail,
+    #password{
+        right: 1%;
+        width: 10%;
+        line-height: 10;
+    }
+    
+}
+@media (max-width:1400px){
+    .gmail,
+    #password{
+        width: 90%;
+    }
+    .login{
+        width: 30%;
+    }
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient( #2c2c2cf6, #363636);
+    animation: color 14s ease-in-out infinite;
+    background-size: 300% 300%;
+    overflow-x: hidden;
+}
+.logo{
+    width: 160px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+.header {
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 0.9rem 5%;
+    height: 10%;
+    width: 95%;
+    position: absolute;
+    z-index: 100;
+
+}
+
+.header {
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.header li a {
+    text-decoration: none;
+    position: relative;
+    left: 480px;
+    top: 15px;
+    margin-right: 20px;
+    
+    
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #595959;
+    border-radius: 20px;
+    transform: translateX(0);
+    box-shadow: 0 0 5px black;
+
+
+}
+
+.header li a:hover {
+    background-color:rgb(176, 174, 174);
+    box-shadow: 0 0 35px black;
+}
+
+.header li:hover {
+    transform: translateY(-2px);
+}
+
+.login{
+    position: absolute;
+    
+    justify-content: center;
+    align-items: center;
+    
+    height: 40%;
+    left: 35%;
+    top: 30%;
+    box-shadow: 0 0 20px rgb(203, 202, 202);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.gmail{
+    position: absolute;
+    
+    top: 24%;
+    line-height: 30px;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(163, 163, 163);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.labelline3{
+    position: absolute;
+    color: rgb(185, 184, 184);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 28%;
+    
+}
+.gmail:focus,
+.gmail:valid{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(63, 63, 63);
+}
+.gmail:focus + .labelline3,
+.gmail:valid + .labelline3{
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px,-33px) scale(0.88);
+    z-index: 111111;
+}
+#password{
+    position: absolute;
+    
+    top: 48%;
+    line-height: 30px;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(163, 163, 163);
+    padding: 5px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.labelline4{
+    position: absolute;
+    color: rgb(185, 184, 184);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: 0.2s;
+    top: 51%;
+    
+}
+.entryarea img{
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    right: 7%;
+    cursor: pointer;
+    z-index: 1111;
+    opacity: 0.8;
+}
+#password:focus,
+#password:valid{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(63, 63, 63);
+}
+#password:focus + .labelline4,
+#password:valid + .labelline4{
+    color: rgba(0, 0, 0, 0.889);
+    font-weight: bold;
+    transform: translate(-9px,-33px) scale(0.88);
+    z-index: 111111;
+}
+h2{
+    position: absolute;
+    right: 31%;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    cursor: default;
+}
+.ul1 .li1 {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    top: 180px;
+    
+    z-index: 100000;
+}
+
+.ul1 .li1 .signup {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 8px;
+    color: black;
+    background: #595959;
+    border-radius: 20px;
+    transform: translateY(0);
+    box-shadow: 0 0 5px black;
+}
+.ul1 .li1 .signup:hover {
+    background-color: rgb(176, 174, 174);
+    letter-spacing: 2px;
+    box-shadow: 0 0 35px black;
+    transition: 0.2s;
+}
+
+.ul1 .li1:hover {
+    transform: translateY(-3px);
+}

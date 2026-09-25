@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/project2signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="linkasli">
+            <ul>
+                <img class="logo" src="static/image/logo.png" alt="">
+                <li><a href="project2base.html">Home</a></li>
+                <li><a href="#">Contect Us</a></li>
+                <li><a href="#">About Us</a></li>   
+            </ul>
+        </header>
+        <section class="signup">
+            <div class="entryarea">
+                <h2>Signup Page</h2>
+                <input class="name" type="text" required>
+                <div class="labelline1">Enter Your Name</div>
+                <input class="lastName" type="text" required>
+                <div class="labelline2">Enter Your Lastname</div>
+                <input class="gmail" type="text" required>
+                <div class="labelline3">Enter Your Gmail</div>
+                <input type="password" required id="password">
+                <div class="labelline4">Enter Your Pass</div>
+                <img src="static/image/eye.png" id="eye">
+                <ul class="ul1">
+                    <li class="li1"><a class="signUp" href="project2base.html">Sign up</a></li>
+                    <li class="li1"><a class="signUp" href="project2login.html">login</a></li>
+                </ul>
+            </div>
+        </section>
+    
+
+        <script>
+
+            let eye = document.getElementById("eye");
+            let password = document.getElementById("password");
+    
+            eye.onclick = function(){
+                if(password.type == "password"){
+                    password.type = "text";
+                }
+                else{
+                    password.type = "password";
+                }
+            }
+    
+        </script>
+</body>
+</html>

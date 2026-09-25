@@ -1,0 +1,1076 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../font/webfonts/Vazirmatn-Medium.woff2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+@media (min-width: 500px) {
+    .title {
+        top: 10%;
+        font-size: 1.1em;
+        left: 3%;
+    }
+
+    .shoes {
+        top: 20%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .buy {
+        top: 63%;
+        left: 33%;
+        font-size: 0.8em;
+    }
+
+    .buy2 {
+        top: 63%;
+        left: 83%;
+        font-size: 0.8em;
+    }
+
+    .buy3 {
+        top: 120%;
+        left: 33%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy4 {
+        top: 120%;
+        left: 83%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy5 {
+        top: 175%;
+        left: 33%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy6 {
+        top: 175%;
+        left: 83%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy7 {
+        top: 233%;
+        left: 33%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy8 {
+        top: 233%;
+        left: 83%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .kafshha {
+        height: 280vh;
+    }
+
+    .kafshha::before {
+        top: 245%;
+    }
+
+    .shoes2 {
+        top: 20%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes3 {
+        top: 75%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes4 {
+        top: 75%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes5 {
+        top: 130%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes6 {
+        top: 130%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes7 {
+        top: 190%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes8 {
+        top: 190%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .social {
+        top: 250%;
+    }
+
+    .social1 img {
+        width: 15%;
+        left: 75%;
+        top: 25%;
+    }
+
+    .social2 img {
+        width: 11%;
+        left: 65%;
+        top: 31%;
+    }
+
+    .social3 img {
+        width: 15%;
+        left: 50%;
+        top: 26%;
+    }
+
+    .head li a {
+        margin-right: 10px;
+        top: -35px;
+        left: -180px;
+    }
+}
+
+@media (min-width: 780px) {
+    .title {
+        top: 5%;
+        left: 2%;
+        font-size: 2em;
+    }
+
+    .shoes {
+        top: 20%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .buy {
+        top: 63%;
+        left: 39%;
+        font-size: 0.8em;
+    }
+
+    .buy2 {
+        top: 63%;
+        left: 87%;
+        font-size: 0.8em;
+    }
+
+    .buy3 {
+        top: 118%;
+        left: 39%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .buy4 {
+        top: 118%;
+        left: 87%;
+        font-size: 0.8em;
+        z-index: 1111;
+    }
+
+    .shoes2 {
+        top: 20%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes3 {
+        top: 75%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes4 {
+        top: 75%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes5 {
+        top: 130%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes6 {
+        top: 130%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes7 {
+        top: 190%;
+        left: 3%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .shoes8 {
+        top: 190%;
+        left: 52%;
+        width: 45%;
+        height: 40vh;
+    }
+
+    .social1 img {
+        width: 10%;
+        left: 58%;
+        top: 25%;
+    }
+
+    .social2 img {
+        width: 7%;
+        left: 50%;
+        top: 35%;
+    }
+
+    .social3 img {
+        width: 10%;
+        left: 39%;
+        top: 26%;
+    }
+
+    .head li a {
+        display: block;
+        text-decoration: none;
+        position: relative;
+        margin-right: 20px;
+        left: 20%;
+        top: -15px;
+        padding: 8px;
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .title {
+        top: 5%;
+        left: 2%;
+        font-size: 2em;
+    }
+
+    .kafshha {
+        height: 100vh;
+    }
+
+    .kafshha::before {
+        top: 165%;
+    }
+
+    .shoes {
+        top: 20%;
+        left: 3%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .buy {
+        top: 84%;
+        left: 16%;
+        font-size: 0.7em;
+    }
+
+    .buy2 {
+        top: 84%;
+        left: 40%;
+        font-size: 0.7em;
+    }
+
+    .buy3 {
+        top: 85%;
+        left: 64%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .buy4 {
+        top: 85%;
+        left: 90%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .buy5 {
+        top: 158%;
+        left: 16%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .buy6 {
+        top: 158%;
+        left: 40%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .buy7 {
+        top: 158%;
+        left: 64%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .buy8 {
+        top: 158%;
+        left: 88%;
+        font-size: 0.7em;
+        z-index: 1111;
+    }
+
+    .shoes2 {
+        top: 20%;
+        left: 27%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes3 {
+        top: 20%;
+        left: 51%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes4 {
+        top: 20%;
+        left: 75%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes5 {
+        top: 92%;
+        left: 3%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes6 {
+        top: 92%;
+        left: 27%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes7 {
+        top: 92%;
+        left: 51%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .shoes8 {
+        top: 92%;
+        left: 75%;
+        width: 20%;
+        height: 60vh;
+    }
+
+    .social {
+        top: 170%;
+    }
+
+    .social1 img {
+        width: 10%;
+        left: 58%;
+        top: 25%;
+    }
+
+    .social2 img {
+        width: 7%;
+        left: 50%;
+        top: 35%;
+    }
+
+    .social3 img {
+        width: 10%;
+        left: 39%;
+        top: 26%;
+    }
+
+    .head li a {
+        display: block;
+        text-decoration: none;
+        position: relative;
+        margin-right: 20px;
+        left: 20%;
+        top: -15px;
+        padding: 8px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media (min-width: 1360px) {
+    .title {
+        top: 3%;
+        left: 3%;
+        font-size: 3em;
+    }
+
+    .shoes {
+        top: 20%;
+        left: 3%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .buy {
+        left: 20%;
+        top: 83%;
+        font-size: 1em;
+    }
+
+    .buy2 {
+        left: 44%;
+        top: 83%;
+        font-size: 1em;
+    }
+
+    .buy3 {
+        left: 68%;
+        top: 83%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .buy4 {
+        left: 92%;
+        top: 83%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .buy5 {
+        left: 20%;
+        top: 155%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .buy6 {
+        left: 44%;
+        top: 155%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .buy7 {
+        left: 68%;
+        top: 155%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .buy8 {
+        left: 92%;
+        top: 155%;
+        font-size: 1em;
+        z-index: 1111;
+    }
+
+    .page2 {
+        height: 250vh;
+    }
+
+    .shoes2 {
+        top: 20%;
+        left: 27%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes3 {
+        top: 20%;
+        left: 51%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes4 {
+        top: 20%;
+        left: 75%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes5 {
+        top: 92%;
+        left: 3%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes6 {
+        top: 92%;
+        left: 27%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes7 {
+        top: 92%;
+        left: 51%;
+        width: 23%;
+        height: 60vh;
+    }
+
+    .shoes8 {
+        top: 92%;
+        left: 75%;
+        width: 23%;
+        height: 60vh;
+    }
+    .social1 img {
+        width: 10%;
+        left: 55%;
+        top: 25%;
+    }
+
+    .social2 img {
+        width: 7%;
+        left: 47%;
+        top: 35%;
+    }
+
+    .social3 img {
+        width: 9.5%;
+        left: 36%;
+        top: 26%;
+    }
+
+    .head li a {
+        margin-right: 40px;
+        top: -15px;
+    }
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 190vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8A1E0;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 160px;
+    position: absolute;
+    right: 5%;
+    top: -20px;
+}
+
+.header {
+    display:flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 0.9rem 5%;
+    height: 10%;
+    width: 95%;
+    position: absolute;
+    z-index: 10000;
+
+}
+
+.header {
+    gap: 60px;
+    
+}
+
+.head {
+    position: absolute;
+    left: 37%;
+}
+
+.head li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.head li a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    /*margin-right: 20px;
+    top: -15px;*/
+    padding: 8px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    
+    border-bottom: 1px solid black;
+    transform: translateX(6px);
+    transition: 0.5s;
+}
+.title{
+    position: absolute;
+    /*top: 3%;
+    left: 3%;
+    font-size: 3em;*/
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    color: #2b2b2b;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px #2b2b2b;
+}
+.shoes{
+    background-image: url(../image/zanan1.jfif);
+    position: absolute;
+   /* top: 20%;
+    left: 3%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.p1{
+    position: absolute;
+    top: 101%;
+    left: 3%;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.price{
+    position: absolute;
+    top: 108%;
+    left: 3%;
+    color: #6f0182;
+}
+.buy{
+    position: absolute;
+    /*top: 83%;   
+    left: 20%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy:hover{
+    background-color: #2E073F;
+    color: #C0C78C;   
+    transition: 0.5s;
+    transform: translateY(-2px);
+}
+.shoes2{
+    background-image: url(../image/zanan2.jfif);
+    position: absolute;
+    /*top: 20%;
+    left: 27%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes2:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy2{
+    position: absolute;
+   /* top: 83%;   
+    left: 44%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy2:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes3{
+    background-image: url(../image/zanan3.jfif);
+    position: absolute;
+    /*top: 20%;
+    left: 51%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes3:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy3{
+    position: absolute;
+    /*top: 83%;   
+    left: 68%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy3:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes4{
+    background-image: url(../image/zanan4.jfif);
+    position: absolute;
+    /*top: 20%;
+    left: 75%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes4:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy4{
+    position: absolute;
+    /*top: 83%;   
+    left: 92%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy4:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes5{
+    background-image: url(../image/zanan5.jfif);
+    position: absolute;
+    /*top: 110%;
+    left: 75%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes5:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy5{
+    position: absolute;
+    /*top: 173%;    
+    left: 92%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+}
+.buy5:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes6{
+    background-image: url(../image/zanan6.jfif);
+    position: absolute;
+    /*top: 110%;   
+    left: 51%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes6:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy6{
+    position: absolute;
+    /*top: 173%;    
+    left: 68%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+}
+.buy6:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes7{
+    background-image: url(../image/zanan7.jfif);
+    position: absolute;
+   /* top: 110%;
+    left: 27%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes7:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy7{
+    position: absolute;
+    /*top: 173%;    
+    left: 44%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy7:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.shoes8{
+    background-image: url(../image/kafsh5.jpg);
+    position: absolute;
+    /*top: 110%;
+    left: 3%;
+    width: 23%;
+    height: 60vh;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.shoes8:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px black;
+}
+.buy8{
+    position: absolute;
+   /* top: 173%;    
+    left: 20%;*/
+    border: 2px solid #AD49E1;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #AD49E1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.buy8:hover{
+    background-color: #2E073F;
+    transition: 0.5s;
+    transform: translateY(-2px);
+    color: #C0C78C;   
+}
+.social{
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    left: 0;
+   /* top: 200%;*/
+    background-color: rgb(0, 0, 0);
+    
+}
+.kafshha::before{
+    content: '';
+    position: absolute;
+    /*top: 195%;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to top,#000000,transparent);
+    z-index: 11111;  
+}
+.h2social{
+    position: absolute;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    left: 43%;
+    padding: 5px;
+    letter-spacing: 5px;
+}
+.social1 img{
+    position: absolute;
+    /*width: 9%;
+    top:28%;
+    left: 37%;*/
+    z-index: 1111;
+    cursor: pointer;
+    
+}
+.social1 img:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+.social2 img{
+    position: absolute;
+    /*width: 6%;
+    top:38%;
+    left: 57.8%;*/
+    z-index: 1111;
+    cursor: pointer;
+}
+.social2 img:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+.social3 img{
+    position: absolute;
+   /* width: 8.5%;
+    top:28%;
+    left: 47%;*/
+    z-index: 1111;
+    cursor: pointer;
+}
+.social3 img:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+.psocial{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.psocial .asocial{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #868686;
+}
+.psocial .asocial:hover{
+    border-bottom: 1px solid #fff;
+    transform: translatex(5px);
+    transition: 0.5s;
+}
