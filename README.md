@@ -1,24 +1,42 @@
-# E-Commerce-Website
+# 🛒 E-Commerce Website
 
 Eine einfache E-Commerce-Website als persönliches Webentwicklungsprojekt.
 
-## Verwendete Technologien
+## ✨ Features
+
+- 🛍️ Produktübersicht
+- 🔎 Produktsuche
+- 🛒 Warenkorb
+- 📱 Responsive Design
+- 🎨 Benutzerfreundliche Oberfläche
+
+## 🛠️ Technologien
 
 - HTML
 - CSS
 - JavaScript
 - TypeScript
 
-## Über das Projekt
+## 📸 Screenshots
 
-Mit diesem Projekt habe ich meine Kenntnisse in der Webentwicklung praktisch angewendet
-und erste Erfahrungen bei der Entwicklung einer eigenen E-Commerce-Website gesammelt.
+Screenshots werden bald hinzugefügt.
 
-## Demo
+## 🚀 Live Demo
 
-🔗 [Live Demo](https://ariansalimii.github.io/wcommerce-website/)
+👉 [Website öffnen](https://ariansalimii.github.io/wcommerce-website/)
 
-## Ziel
+## 💻 Source Code
 
-Das Projekt dient dazu, meine Kenntnisse in der Frontend-Webentwicklung und meine
-Programmierkenntnisse durch praktische Umsetzung weiterzuentwickeln.
+👉 [GitHub Repository](https://github.com/Ariansalimii/wcommerce-website)
+
+## 📌 Über das Projekt
+
+Dieses Projekt wurde entwickelt, um meine Kenntnisse in der Webentwicklung
+praktisch anzuwenden und meine Erfahrungen mit HTML, CSS, JavaScript und
+TypeScript zu erweitern.
+
+## 👨‍💻 Autor
+
+**Arian Salimi**
+
+📧 ariansalimialibaglou@gmail.com
